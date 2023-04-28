@@ -1,0 +1,32 @@
+<!--Programmer: Chris Tralie!-->
+<!--Purpose: Front end point chooser for 2D forward kinematics !-->
+<html>
+<head>
+</head>
+<body>
+
+<h2>Polygon Selection</h2>
+
+<h3>Directions:</h3>
+<p>
+Left click to select points on a polygon.  Right click to deselect
+</p>
+
+<p>
+<button type = "button" onclick = "clear()">Clear</button>
+</p>
+
+
+
+
+<canvas id = "canvas" width = "600" height = "600" style="border:1px solid #000000;">
+</canvas>
+
+<script src="curve.js"></script>
+<script>
+    let curve = new LoopCurve();
+</script>
+
+
+</body>
+</html>
